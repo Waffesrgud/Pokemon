@@ -11,7 +11,7 @@ private int evolStage;
 
 public Pokemon()
 {
-	
+	pokemonPresets("Invalid");
 }
 
 public Pokemon(String pokemon)
@@ -37,51 +37,51 @@ public void pokemonPresets(String pokemon)
 		evolStage = 3;
 		break;
 	case "Salamence":
-		number = 282;
-		stats.put("hp", 68);
-		stats.put("atk", 5);
-		stats.put("def", 65);
-		stats.put("spatk", 125);
-		stats.put("spdef", 115);
-		stats.put("spd", 80);
-		type1.typePresets("Psychic");
-		type2.typePresets("Fairy");
+		number = 373;
+		stats.put("hp", 95);
+		stats.put("atk", 135);
+		stats.put("def", 80);
+		stats.put("spatk", 110);
+		stats.put("spdef", 80);
+		stats.put("spd", 100);
+		type1.typePresets("Dragon");
+		type2.typePresets("Flying");
 		evolStage = 3;
 		break;
 	case "Altaria":
-		number = 282;
-		stats.put("hp", 68);
-		stats.put("atk", 5);
-		stats.put("def", 65);
-		stats.put("spatk", 125);
-		stats.put("spdef", 115);
+		number = 334;
+		stats.put("hp", 75);
+		stats.put("atk", 70);
+		stats.put("def", 90);
+		stats.put("spatk", 70);
+		stats.put("spdef", 105);
 		stats.put("spd", 80);
-		type1.typePresets("Psychic");
-		type2.typePresets("Fairy");
-		evolStage = 3;
+		type1.typePresets("Dragon");
+		type2.typePresets("Flying");
+		evolStage = 2;
 		break;
-	case "Flygon":
-		number = 282;
-		stats.put("hp", 68);
-		stats.put("atk", 5);
-		stats.put("def", 65);
-		stats.put("spatk", 125);
-		stats.put("spdef", 115);
-		stats.put("spd", 80);
-		type1.typePresets("Psychic");
-		type2.typePresets("Fairy");
-		evolStage = 3;
+	case "Swablu":
+		number = 333;
+		stats.put("hp", 45);
+		stats.put("atk", 40);
+		stats.put("def", 60);
+		stats.put("spatk", 40);
+		stats.put("spdef", 75);
+		stats.put("spd", 50);
+		type1.typePresets("Ground");
+		type2.typePresets("Dragon");
+		evolStage = 1;
 		break;
 	case "Goodra":
-		number = 282;
-		stats.put("hp", 68);
-		stats.put("atk", 5);
-		stats.put("def", 65);
-		stats.put("spatk", 125);
-		stats.put("spdef", 115);
+		number = 706;
+		stats.put("hp", 90);
+		stats.put("atk", 100);
+		stats.put("def", 70);
+		stats.put("spatk", 110);
+		stats.put("spdef", 150);
 		stats.put("spd", 80);
-		type1.typePresets("Psychic");
-		type2.typePresets("Fairy");
+		type1.typePresets("Dragon");
+		type2.typePresets("None");
 		evolStage = 3;
 		break;
 	default:
