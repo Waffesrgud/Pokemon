@@ -1,5 +1,10 @@
 package poke.view;
 
-public class PokemonFrame {
+import poke.controller.PokemonController;
+import javax.swing.*;
+import java.awt.event.*;
+
+public class PokemonFrame extends JFrame
+{
 
 }
