@@ -158,7 +158,66 @@ public abstract class Type {
 			match.put("Dark", 2.0);
 			match.put("Fighting", 1.0);
 			break;
-		case "
+		case "Poison":
+			match.put("Normal", 1.0);
+			match.put("Fire", 1.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 2.0);
+			match.put("Electric", 1.0);
+			match.put("Ice", 1.0);
+			match.put("Rock", 0.5);
+			match.put("Ground", 0.5);
+			match.put("Ghost", 0.5);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 1.0);
+			match.put("Steel", 0.0);
+			match.put("Fairy", 2.0);
+			match.put("Psychic", 1.0);
+			match.put("Poison", 0.5);
+			match.put("Dark", 1.0);
+			match.put("Fighting", 1.0);
+			break;
+		case "Ground":
+			match.put("Normal", 1.0);
+			match.put("Fire", 2.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 0.5);
+			match.put("Electric", 2.0);
+			match.put("Ice", 2.0);
+			match.put("Rock", 2.0);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 1.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 0.5);
+			match.put("Flying", 0.0);
+			match.put("Steel", 2.0);
+			match.put("Fairy", 1.0);
+			match.put("Psychic", 1.0);
+			match.put("Poison", 2.0);
+			match.put("Dark", 1.0);
+			match.put("Fighting", 1.0);
+			break;
+		case "Flying":
+			match.put("Normal", 1.0);
+			match.put("Fire", 1.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 2.0);
+			match.put("Electric", 0.5);
+			match.put("Ice", 1.0);
+			match.put("Rock", 1.0);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 1.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 1.0);
+			match.put("Steel", 1.0);
+			match.put("Fairy", 1.0);
+			match.put("Psychic", 1.0);
+			match.put("Poison", 1.0);
+			match.put("Dark", 1.0);
+			match.put("Fighting", 1.0);
+			break;
 		case "Psychic":
 			match.put("Normal", 1.0);
 			match.put("Fire", 1.0);
@@ -178,6 +237,126 @@ public abstract class Type {
 			match.put("Poison", 2.0);
 			match.put("Dark", 0.0);
 			match.put("Fighting", 2.0);
+			break;
+		case "Bug":
+			match.put("Normal", 1.0);
+			match.put("Fire", 0.5);
+			match.put("Water", 1.0);
+			match.put("Grass", 2.0);
+			match.put("Electric", 1.0);
+			match.put("Ice", 1.0);
+			match.put("Rock", 0.5);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 1.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 0.5);
+			match.put("Steel", 0.5);
+			match.put("Fairy", 0.5);
+			match.put("Psychic", 2.0);
+			match.put("Poison", 0.5);
+			match.put("Dark", 2.0);
+			match.put("Fighting", 0.5);
+			break;
+		case "Rock":
+			match.put("Normal", 1.0);
+			match.put("Fire", 2.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 1.0);
+			match.put("Electric", 1.0);
+			match.put("Ice", 2.0);
+			match.put("Rock", 1.0);
+			match.put("Ground", 0.5);
+			match.put("Ghost", 1.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 2.0);
+			match.put("Flying", 2.0);
+			match.put("Steel", 0.5);
+			match.put("Fairy", 1.0);
+			match.put("Psychic", 1.0);
+			match.put("Poison", 1.0);
+			match.put("Dark", 1.0);
+			match.put("Fighting", 0.5);
+			break;
+		case "Ghost":
+			match.put("Normal", 0.0);
+			match.put("Fire", 1.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 1.0);
+			match.put("Electric", 1.0);
+			match.put("Ice", 1.0);
+			match.put("Rock", 1.0);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 2.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 1.0);
+			match.put("Steel", 1.0);
+			match.put("Fairy", 1.0);
+			match.put("Psychic", 2.0);
+			match.put("Poison", 1.0);
+			match.put("Dark", 0.5);
+			match.put("Fighting", 1.0);
+			break;
+		case "Dragon":
+			match.put("Normal", 1.0);
+			match.put("Fire", 1.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 1.0);
+			match.put("Electric", 1.0);
+			match.put("Ice", 1.0);
+			match.put("Rock", 1.0);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 1.0);
+			match.put("Dragon", 2.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 1.0);
+			match.put("Steel", 0.5);
+			match.put("Fairy", 0.0);
+			match.put("Psychic", 1.0);
+			match.put("Poison", 1.0);
+			match.put("Dark", 1.0);
+			match.put("Fighting", 1.0);
+			break;
+		case "Dark":
+			match.put("Normal", 1.0);
+			match.put("Fire", 1.0);
+			match.put("Water", 1.0);
+			match.put("Grass", 1.0);
+			match.put("Electric", 1.0);
+			match.put("Ice", 1.0);
+			match.put("Rock", 1.0);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 2.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 1.0);
+			match.put("Steel", 1.0);
+			match.put("Fairy", 0.5);
+			match.put("Psychic", 2.0);
+			match.put("Poison", 1.0);
+			match.put("Dark", 0.5);
+			match.put("Fighting", 0.5);
+			break;
+		case "Steel":
+			match.put("Normal", 1.0);
+			match.put("Fire", 0.5);
+			match.put("Water", 0.5);
+			match.put("Grass", 1.0);
+			match.put("Electric", 0.5);
+			match.put("Ice", 2.0);
+			match.put("Rock", 2.0);
+			match.put("Ground", 1.0);
+			match.put("Ghost", 1.0);
+			match.put("Dragon", 1.0);
+			match.put("Bug", 1.0);
+			match.put("Flying", 1.0);
+			match.put("Steel", 0.5);
+			match.put("Fairy", 2.0);
+			match.put("Psychic", 1.0);
+			match.put("Poison", 1.0);
+			match.put("Dark", 1.0);
+			match.put("Fighting", 1.0);
 			break;
 		case "Fairy":
 			match.put("Normal", 1.0);
@@ -221,4 +400,6 @@ public abstract class Type {
 			break;
 		}
 	}
+
+	
 }
