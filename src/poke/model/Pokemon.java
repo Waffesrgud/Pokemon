@@ -24,7 +24,7 @@ public void pokemonPresets(String pokemon)
 	name = pokemon;
 	switch(pokemon)
 	{
-	case "Gardevoir" :
+	case "Gardevoir":
 		number = 282;
 		stats.put("hp", 68);
 		stats.put("atk", 5);
@@ -84,11 +84,23 @@ public void pokemonPresets(String pokemon)
 		type2.typePresets("None");
 		evolStage = 3;
 		break;
+	case "Blaziken":
+		number = 257;
+		stats.put("hp", 80);
+		stats.put("atk", 120);
+		stats.put("def", 70);
+		stats.put("spatk", 110);
+		stats.put("spdef", 70);
+		stats.put("spd", 80);
+		type1.typePresets("Fire");
+		type2.typePresets("Fighting");
+		evolStage = 3;
+		break;
 	default:
 		number = 0;
 		stats.put("hp", 0);
 		stats.put("atk", 0);
-		stats.put("def", 0);
+		stats.put("def", 0); 
 		stats.put("spatk", 0);
 		stats.put("spdef", 0);
 		stats.put("spd", 0);
