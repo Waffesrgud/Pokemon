@@ -5,4 +5,9 @@ public void start()
 {
 	System.out.println("Hello, world!");
 }
+
+public Object getBaseFrame() {
+
+	return null;
+}
 }

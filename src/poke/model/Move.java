@@ -48,17 +48,39 @@ public class Move {
 			pp = 15;
 			break;
 		case "Fury Attack":
-			moveType.typePresets("Fury Attack");
+			moveType.typePresets("Normal");
 			power = 90;
 			accuracy = 100;
 			pp = 20;
 			desc = "Fury Attack deals damage and can hit 2-5 times.";
 			break;
-		case "5":
+		case "Attract":
+			moveType.typePresets("Normal");
+			power = 0;
+			accuracy = 100;
+			pp = 15;
+			desc = "Attract causes Pokémon of the opposite gender to become infatuated.";
 			break;
-		case "6":
+		case "Blaze Kick":
+			moveType.typePresets("Fire");
+			power = 85;
+			accuracy = 90;
+			pp = 10;
+			desc = "Blaze Kick deals damage and has a 10% chance of burning the target. It also has an increased critical hit ratio (1⁄8 instead of 1⁄16).";
+			break;
+		case "Sky Uppercut":
+			moveType.typePresets("Fighting");
+			power = 85;
+			accuracy = 90;
+			pp = 15;
+			desc = "Hits the opponent, even during Fly.";
 			break;
 		default:
+			moveType.typePresets("None");
+			power = 0;
+			accuracy = 0;
+			pp = 0;
+			desc = "This move does not exist.";
 			break;
 		}
 	}
