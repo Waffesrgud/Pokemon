@@ -8,10 +8,12 @@ private String name;
 private Type type1;
 private Type type2;
 private int evolStage;
+public Move move1;
+public Move move2;
 
 public Pokemon()
 {
-	pokemonPresets("Invalid");
+	pokemonPresets("None");
 }
 
 public Pokemon(String pokemon)
