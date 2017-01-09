@@ -2,9 +2,9 @@ package poke.model;
 
 import java.util.*;
 
-public abstract class Type {
+public class Type {
 	public String name;
-	public HashMap<String, Double> match;
+	HashMap<String, Double> match = new HashMap<String, Double>();
 	public Type()
 	{
 		typePresets("None");
