@@ -2,15 +2,15 @@ package poke.controller;
 
 import poke.model.Pokemon;
 import poke.view.*;
-import java.util.ArrayList;
+import java.util.*;
 
 public class PokemonController {
 PokemonFrame overlay = new PokemonFrame(this);
-ArrayList<Pokemon> pokedex = new ArrayList<Pokemon>();
-private Pokemon lastPokemon;
+List<Pokemon> pokedex = new ArrayList<Pokemon>();
+private Pokemon temporaryPokemon;
+
 public PokemonController()
 {
-	initializePokedex();
 }
 public void start()
 {
@@ -22,13 +22,13 @@ public PokemonFrame getBaseFrame() {
 	return overlay;
 }
 
-public ArrayList getPokedex() {
+public List getPokedex() {
 
 	return pokedex;
 }
 
 public void initializePokedex()
 {
-	pokedex.add(lastPokemon.pokemonPresets("Gardevoir"));
+
 }
 }

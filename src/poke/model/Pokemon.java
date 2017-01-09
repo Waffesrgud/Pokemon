@@ -21,7 +21,7 @@ public Pokemon(String pokemon)
 	pokemonPresets(pokemon);
 }
 
-public void pokemonPresets(String pokemon)
+public Pokemon pokemonPresets(String pokemon)
 {
 	name = pokemon;
 	switch(pokemon)
@@ -113,10 +113,7 @@ public void pokemonPresets(String pokemon)
 		evolStage = 0;
 		break;
 	}
-}
-
-public Pokemon getPokemon()
-{
 	return this;
 }
+
 }
