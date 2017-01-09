@@ -51,6 +51,8 @@ public Pokemon pokemonPresets(String pokemon)
 		type1.typePresets("Dragon");
 		type2.typePresets("Flying");
 		evolStage = 3;
+		move1.movePresets("Flamethrower");
+		move2.movePresets("Dragon Breath");
 		break;
 	case "Altaria":
 		number = 334;
@@ -63,6 +65,8 @@ public Pokemon pokemonPresets(String pokemon)
 		type1.typePresets("Dragon");
 		type2.typePresets("Flying");
 		evolStage = 2;
+		move1.movePresets("Fury Attack");
+		move2.movePresets("Dragon Breath");
 		break;
 	case "Swablu":
 		number = 333;
@@ -72,9 +76,11 @@ public Pokemon pokemonPresets(String pokemon)
 		stats.put("spatk", 40);
 		stats.put("spdef", 75);
 		stats.put("spd", 50);
-		type1.typePresets("Ground");
+		type1.typePresets("Normal");
 		type2.typePresets("Dragon");
 		evolStage = 1;
+		move1.movePresets("Fury Attack");
+		move2.movePresets("Moonblast");
 		break;
 	case "Goodra":
 		number = 706;
@@ -87,6 +93,8 @@ public Pokemon pokemonPresets(String pokemon)
 		type1.typePresets("Dragon");
 		type2.typePresets("None");
 		evolStage = 3;
+		move1.movePresets("Attract");
+		move2.movePresets("Dragon Breath");
 		break;
 	case "Blaziken":
 		number = 257;
@@ -99,6 +107,8 @@ public Pokemon pokemonPresets(String pokemon)
 		type1.typePresets("Fire");
 		type2.typePresets("Fighting");
 		evolStage = 3;
+		move1.movePresets("Blaze Kick");
+		move2.movePresets("Sky Uppercut");
 		break;
 	default:
 		number = 0;
@@ -111,9 +121,14 @@ public Pokemon pokemonPresets(String pokemon)
 		type1.typePresets("None");
 		type2.typePresets("None");
 		evolStage = 0;
+		move1.movePresets("None");
+		move2.movePresets("None");
 		break;
 	}
 	return this;
 }
-
+public String getName()
+{
+	return name;
+}
 }

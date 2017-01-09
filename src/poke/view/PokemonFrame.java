@@ -16,6 +16,7 @@ public PokemonFrame(PokemonController baseController)
 	this.baseController = baseController;
 	this.appPanel = new PokemonPanel(baseController);
 	setupFrame();
+
 }
 
 private void setupFrame()

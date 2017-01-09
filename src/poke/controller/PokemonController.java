@@ -7,10 +7,18 @@ import java.util.*;
 public class PokemonController {
 PokemonFrame overlay = new PokemonFrame(this);
 List<Pokemon> pokedex = new ArrayList<Pokemon>();
-private Pokemon temporaryPokemon;
+private Pokemon tempPokemon;
 
 public PokemonController()
 {
+/*
+	pokedex.add(tempPokemon.pokemonPresets("Gardevoir"));
+	pokedex.add(tempPokemon.pokemonPresets("Salamence"));
+	pokedex.add(tempPokemon.pokemonPresets("Altaria"));
+	pokedex.add(tempPokemon.pokemonPresets("Swablu"));
+	pokedex.add(tempPokemon.pokemonPresets("Goodra"));
+	pokedex.add(tempPokemon.pokemonPresets("Blaziken"));
+*/
 }
 public void start()
 {
@@ -27,8 +35,4 @@ public List getPokedex() {
 	return pokedex;
 }
 
-public void initializePokedex()
-{
-
-}
 }
