@@ -37,6 +37,8 @@ public void pokemonPresets(String pokemon)
 		type1.typePresets("Psychic");
 		type2.typePresets("Fairy");
 		evolStage = 3;
+		move1.movePresets("Draining Kiss");
+		move2.movePresets("Moonblast");
 		break;
 	case "Salamence":
 		number = 373;
@@ -113,4 +115,8 @@ public void pokemonPresets(String pokemon)
 	}
 }
 
+public Pokemon getPokemon()
+{
+	return this;
+}
 }

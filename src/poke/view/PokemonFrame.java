@@ -24,4 +24,14 @@ private void setupFrame()
 	this.setTitle("Hello, Pokedex!");
 	this.setVisible(true);
 }
+
+public PokemonPanel getBasePanel()
+{
+	return appPanel;
+}
+
+public PokemonController getBaseController()
+{
+	return baseController;
+}
 }
