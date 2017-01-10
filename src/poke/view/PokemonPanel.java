@@ -18,6 +18,7 @@ public class PokemonPanel extends JPanel
 		this.baseController = baseController;
 		SpringLayout springLayout = new SpringLayout();
 		setLayout(springLayout);
+		SpinnerListModel statList = new SpinnerListModel(baseController.statNames);
 		
 		JComboBox comboBox = new JComboBox();
 		comboBox.setToolTipText("Choose a Pokemon");
@@ -41,7 +42,7 @@ public class PokemonPanel extends JPanel
 		springLayout.putConstraint(SpringLayout.SOUTH, idNum, 0, SpringLayout.SOUTH, lblID);
 		add(idNum);
 		
-		JSpinner spinner = new JSpinner();
+		JSpinner spinner = new JSpinner(statList);
 		spinner.setToolTipText("Choose a stat");
 		springLayout.putConstraint(SpringLayout.NORTH, spinner, 12, SpringLayout.SOUTH, lblID);
 		springLayout.putConstraint(SpringLayout.WEST, spinner, 13, SpringLayout.WEST, this);
